@@ -1,32 +1,32 @@
 ---
 name: internal-comms
-description: A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).
+description: 一组用于撰写各类公司内部沟通稿的资源，遵循公司偏好的写作格式。凡是被要求撰写内部沟通（状态报告、领导层更新、3P 更新、公司通讯、FAQ、事故复盘、项目更新等）时，Claude 都应使用此技能。
 license: Complete terms in LICENSE.txt
 ---
 
-## When to use this skill
-To write internal communications, use this skill for:
+## 何时使用此技能
+撰写以下内部沟通内容时使用此技能：
 - 3P updates (Progress, Plans, Problems)
-- Company newsletters
-- FAQ responses
-- Status reports
-- Leadership updates
-- Project updates
-- Incident reports
+- 公司通讯/Newsletter
+- FAQ 回复
+- 状态报告
+- 领导层更新
+- 项目更新
+- 事故报告/复盘
 
-## How to use this skill
+## 如何使用此技能
 
-To write any internal communication:
+撰写任何内部沟通稿时：
 
-1. **Identify the communication type** from the request
-2. **Load the appropriate guideline file** from the `examples/` directory:
-    - `examples/3p-updates.md` - For Progress/Plans/Problems team updates
-    - `examples/company-newsletter.md` - For company-wide newsletters
-    - `examples/faq-answers.md` - For answering frequently asked questions
-    - `examples/general-comms.md` - For anything else that doesn't explicitly match one of the above
-3. **Follow the specific instructions** in that file for formatting, tone, and content gathering
+1. 从需求中**识别沟通类型**
+2. 从 `examples/` 目录中**加载对应的指南文件**：
+    - `examples/3p-updates.md` - 用于 Progress/Plans/Problems 的团队更新
+    - `examples/company-newsletter.md` - 用于公司范围的 Newsletter
+    - `examples/faq-answers.md` - 用于常见问题（FAQ）回复
+    - `examples/general-comms.md` - 用于不完全匹配以上类型的其他沟通
+3. 按该文件中的具体要求执行：包括格式、语气与信息收集
 
-If the communication type doesn't match any existing guideline, ask for clarification or more context about the desired format.
+如果沟通类型与现有任何指南都不匹配，先询问对方期望的格式或补充上下文。
 
-## Keywords
+## 关键词
 3P updates, company newsletter, company comms, weekly update, faqs, common questions, updates, internal comms

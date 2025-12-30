@@ -1,73 +1,73 @@
 ---
 name: brand-guidelines
-description: Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.
+description: 将 Anthropic 官方品牌色与字体规范应用到任何需要 Anthropic 视觉风格的产物中。在涉及品牌色/风格指南、视觉排版或公司设计标准时使用。
 license: Complete terms in LICENSE.txt
 ---
 
-# Anthropic Brand Styling
+# Anthropic 品牌样式
 
-## Overview
+## 概述
 
-To access Anthropic's official brand identity and style resources, use this skill.
+需要获取并应用 Anthropic 官方品牌识别与样式资源时，使用此技能。
 
-**Keywords**: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design
+**关键词**：branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design
 
-## Brand Guidelines
+## 品牌规范
 
-### Colors
+### 颜色
 
-**Main Colors:**
+**主色：**
 
-- Dark: `#141413` - Primary text and dark backgrounds
-- Light: `#faf9f5` - Light backgrounds and text on dark
-- Mid Gray: `#b0aea5` - Secondary elements
-- Light Gray: `#e8e6dc` - Subtle backgrounds
+- Dark: `#141413` - 主文本与深色背景
+- Light: `#faf9f5` - 浅色背景与深色背景上的文字
+- Mid Gray: `#b0aea5` - 次要元素
+- Light Gray: `#e8e6dc` - 轻量背景与弱化区域
 
-**Accent Colors:**
+**强调色：**
 
-- Orange: `#d97757` - Primary accent
-- Blue: `#6a9bcc` - Secondary accent
-- Green: `#788c5d` - Tertiary accent
+- Orange: `#d97757` - 主强调色
+- Blue: `#6a9bcc` - 次强调色
+- Green: `#788c5d` - 第三强调色
 
-### Typography
+### 字体
 
-- **Headings**: Poppins (with Arial fallback)
-- **Body Text**: Lora (with Georgia fallback)
-- **Note**: Fonts should be pre-installed in your environment for best results
+- **标题**：Poppins（不可用时回退 Arial）
+- **正文**：Lora（不可用时回退 Georgia）
+- **说明**：为获得最佳效果，建议在环境中预先安装字体
 
-## Features
+## 功能
 
-### Smart Font Application
+### 智能字体应用
 
-- Applies Poppins font to headings (24pt and larger)
-- Applies Lora font to body text
-- Automatically falls back to Arial/Georgia if custom fonts unavailable
-- Preserves readability across all systems
+- 对标题（24pt 及以上）应用 Poppins
+- 对正文应用 Lora
+- 自定义字体不可用时自动回退到 Arial/Georgia
+- 在不同系统中保持可读性
 
-### Text Styling
+### 文本样式
 
-- Headings (24pt+): Poppins font
-- Body text: Lora font
-- Smart color selection based on background
-- Preserves text hierarchy and formatting
+- 标题（24pt+）：Poppins
+- 正文：Lora
+- 根据背景智能选择文字颜色
+- 保留文本层级与格式
 
-### Shape and Accent Colors
+### 图形与强调色
 
-- Non-text shapes use accent colors
-- Cycles through orange, blue, and green accents
-- Maintains visual interest while staying on-brand
+- 非文本图形使用强调色
+- 在橙/蓝/绿强调色之间循环
+- 在保持品牌一致性的同时增加视觉层次
 
-## Technical Details
+## 技术细节
 
-### Font Management
+### 字体管理
 
-- Uses system-installed Poppins and Lora fonts when available
-- Provides automatic fallback to Arial (headings) and Georgia (body)
-- No font installation required - works with existing system fonts
-- For best results, pre-install Poppins and Lora fonts in your environment
+- 可用时使用系统已安装的 Poppins 与 Lora
+- 自动回退到 Arial（标题）与 Georgia（正文）
+- 无需强制安装字体，也能使用系统字体正常工作
+- 为获得最佳效果，建议预先安装 Poppins 与 Lora
 
-### Color Application
+### 颜色应用
 
-- Uses RGB color values for precise brand matching
-- Applied via python-pptx's RGBColor class
-- Maintains color fidelity across different systems
+- 使用 RGB 颜色值以精准匹配品牌色
+- 通过 python-pptx 的 RGBColor 类应用颜色
+- 在不同系统中保持颜色一致性

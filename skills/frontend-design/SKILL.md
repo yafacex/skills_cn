@@ -1,42 +1,42 @@
 ---
 name: frontend-design
-description: Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.
+description: 创建具有高设计品质、可用于生产环境的独特前端界面。用户要求构建 Web 组件/页面/产物/海报/应用（如网站、落地页、仪表盘、React 组件、HTML/CSS 布局，或需要美化任意 Web UI）时使用。输出具有创意与精致打磨的代码与界面设计，避免通用 AI 审美。
 license: Complete terms in LICENSE.txt
 ---
 
-This skill guides creation of distinctive, production-grade frontend interfaces that avoid generic "AI slop" aesthetics. Implement real working code with exceptional attention to aesthetic details and creative choices.
+此技能用于指导创建独特、可用于生产环境的前端界面，避免泛滥的“AI 套模板审美”。实现真正可运行的代码，并对审美细节与创意选择保持极高要求。
 
-The user provides frontend requirements: a component, page, application, or interface to build. They may include context about the purpose, audience, or technical constraints.
+用户会给出前端需求：要构建的组件、页面、应用或界面，并可能附带目的、受众或技术约束等上下文。
 
-## Design Thinking
+## 设计思考
 
-Before coding, understand the context and commit to a BOLD aesthetic direction:
-- **Purpose**: What problem does this interface solve? Who uses it?
-- **Tone**: Pick an extreme: brutally minimal, maximalist chaos, retro-futuristic, organic/natural, luxury/refined, playful/toy-like, editorial/magazine, brutalist/raw, art deco/geometric, soft/pastel, industrial/utilitarian, etc. There are so many flavors to choose from. Use these for inspiration but design one that is true to the aesthetic direction.
-- **Constraints**: Technical requirements (framework, performance, accessibility).
-- **Differentiation**: What makes this UNFORGETTABLE? What's the one thing someone will remember?
+在写代码之前，先理解上下文，并坚定选择一个大胆的审美方向：
+- **目的**：这个界面解决什么问题？谁会使用？
+- **基调**：选择一种极端风格：极简到残酷、混乱的极繁、复古未来、自然有机、奢华克制、玩具感、杂志编辑风、粗野主义、装饰艺术/几何、柔和粉彩、工业/工具化等。可用这些作为灵感，但必须设计出与所选方向一致的方案。
+- **约束**：技术要求（框架、性能、可访问性等）。
+- **差异点**：它为什么让人难忘？别人会记住的那一个点是什么？
 
-**CRITICAL**: Choose a clear conceptual direction and execute it with precision. Bold maximalism and refined minimalism both work - the key is intentionality, not intensity.
+**关键**：选择清晰的概念方向，并以精确执行落地。极繁与精致极简都可行——关键在于“有意图”，而不是“强刺激”。
 
-Then implement working code (HTML/CSS/JS, React, Vue, etc.) that is:
-- Production-grade and functional
-- Visually striking and memorable
-- Cohesive with a clear aesthetic point-of-view
-- Meticulously refined in every detail
+随后实现可运行代码（HTML/CSS/JS、React、Vue 等），要求：
+- 可用于生产环境且功能完备
+- 视觉有冲击力且令人记住
+- 审美视角明确且整体一致
+- 每个细节都经过精细打磨
 
-## Frontend Aesthetics Guidelines
+## 前端审美指南
 
-Focus on:
-- **Typography**: Choose fonts that are beautiful, unique, and interesting. Avoid generic fonts like Arial and Inter; opt instead for distinctive choices that elevate the frontend's aesthetics; unexpected, characterful font choices. Pair a distinctive display font with a refined body font.
-- **Color & Theme**: Commit to a cohesive aesthetic. Use CSS variables for consistency. Dominant colors with sharp accents outperform timid, evenly-distributed palettes.
-- **Motion**: Use animations for effects and micro-interactions. Prioritize CSS-only solutions for HTML. Use Motion library for React when available. Focus on high-impact moments: one well-orchestrated page load with staggered reveals (animation-delay) creates more delight than scattered micro-interactions. Use scroll-triggering and hover states that surprise.
-- **Spatial Composition**: Unexpected layouts. Asymmetry. Overlap. Diagonal flow. Grid-breaking elements. Generous negative space OR controlled density.
-- **Backgrounds & Visual Details**: Create atmosphere and depth rather than defaulting to solid colors. Add contextual effects and textures that match the overall aesthetic. Apply creative forms like gradient meshes, noise textures, geometric patterns, layered transparencies, dramatic shadows, decorative borders, custom cursors, and grain overlays.
+关注点：
+- **字体**：选择漂亮、独特、有性格的字体。避免 Arial、Inter 等泛用字体；用更具辨识度的字体提升气质。搭配一款强表现力展示字体 + 一款精致正文字体。
+- **配色与主题**：坚持统一审美，用 CSS 变量确保一致性。主色明确 + 锐利点缀色，往往强于胆怯且平均分布的调色盘。
+- **动效**：用动画制造效果与微交互。HTML 优先使用纯 CSS。React 可用时使用 Motion 库。聚焦高冲击时刻：一次编排精良的首屏加载分段揭示（animation-delay）比零碎微交互更有惊喜。滚动触发与 hover 状态要有反差与意外。
+- **空间构图**：不按套路的布局、非对称、叠压、对角线动势、打破网格的元素，或者大留白/可控密度。
+- **背景与视觉细节**：不要只用纯色背景，要营造氛围与深度。加入与主题一致的质感与效果：渐变网格、噪声纹理、几何图案、层叠透明、戏剧性阴影、装饰边框、自定义光标、颗粒叠层等。
 
-NEVER use generic AI-generated aesthetics like overused font families (Inter, Roboto, Arial, system fonts), cliched color schemes (particularly purple gradients on white backgrounds), predictable layouts and component patterns, and cookie-cutter design that lacks context-specific character.
+严禁使用通用 AI 风格：过度使用的字体族（Inter、Roboto、Arial、系统字体等）、陈词滥调的配色（尤其白底紫色渐变）、可预测的布局与组件模板、缺乏场景性人格的流水线设计。
 
-Interpret creatively and make unexpected choices that feel genuinely designed for the context. No design should be the same. Vary between light and dark themes, different fonts, different aesthetics. NEVER converge on common choices (Space Grotesk, for example) across generations.
+要有创造性解读与出人意料的选择，且让人感觉这是为该上下文“真正设计过的”。不同方案不应趋同：在明暗主题、字体、审美方向之间主动变化。严禁每次都收敛到同一套常见选择（例如总用 Space Grotesk）。
 
-**IMPORTANT**: Match implementation complexity to the aesthetic vision. Maximalist designs need elaborate code with extensive animations and effects. Minimalist or refined designs need restraint, precision, and careful attention to spacing, typography, and subtle details. Elegance comes from executing the vision well.
+**重要**：实现复杂度要匹配审美愿景。极繁需要更精细的代码与丰富的动效/效果；极简或克制风格需要节制、精确，以及对间距、字体与细微细节的执着打磨。优雅来自把愿景执行到位。
 
-Remember: Claude is capable of extraordinary creative work. Don't hold back, show what can truly be created when thinking outside the box and committing fully to a distinctive vision.
+记住：Claude 能做出非常出色的创意作品。不要保守——大胆跳出惯性，并完全投入到一个独特且一致的愿景中。
